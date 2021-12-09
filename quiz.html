@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <header>
+            <h1>🥰🥰Fun with Triangle🥰🥰</h1>
+        </header>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/areaOftriangle.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Triangle Quiz</h2>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label>
+                <input type="radio" name="question1" value="45°">45°
+            </label>
+            <label>
+                <input type="radio" name="question1" value="90°">90°
+            </label>
+            <label>
+                <input type="radio" name="question1" value="60°">60°
+            </label>
+        </div>
+        <div class="question-container">
+            <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label>
+                <input type="radio" name="question2" value="obtuse">obtuse
+            </label>
+            <label>
+                <input type="radio" name="question2" value="acute">acute
+            </label>
+            <label>
+                <input type="radio" name="question2" value="right angled">right angled
+            </label>
+        </div>
+        <div class="question-container">
+            <p>The measure of base of an isosceles triangle is BC = b = 7/3 and the congruent sides are AB = a, AC = a = 4b, then its perimeter is</p>
+            <label>
+                <input type="radio" name="question3" value="21">21
+            </label>
+            <label>
+                <input type="radio" name="question3" value="37">37
+                <input type="radio" name="question3" value="56">56
+                
+                
+            </label>
+        </div>
+        <div class="question-container">
+            <p>Which of the following can form a right angled triangle?</p>
+            <label>
+                <input type="radio" name="question4" value="14, 15, 26">14, 15, 26
+            </label>
+            <label>
+                <input type="radio" name="question4" value="12, 16, 20">12, 16, 20
+            </label>
+        </div>
+        <div class="question-container">
+            <p>Which of the following triangles are always similar?</p>
+            <label>
+                <input type="radio" name="question5" value="Equilateral triangle">Equilateral triangle
+            </label>
+            <label>
+                <input type="radio" name="question5" value="Isosceles triangle">Isosceles triangle
+            </label>
+        </div>
+        <div class="question-container">
+            <p>If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?</p>
+            <label>
+                <input type="radio" name="question6" value="100°">100°
+            </label>
+            <label>
+                <input type="radio" name="question6" value="85°">85°
+                <input type="radio" name="question6" value="10°">10°
+            </label>
+        </div>
+        <div class="question-container">
+            <p>If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?</p>
+            <label>
+                <input type="radio" name="question7" value="30°">30°
+            </label>
+            <label>
+                <input type="radio" name="question7" value="10°">10°
+            </label>
+        </div>
+        <div class="question-container">
+            <p>If any one of the angles of a triangle is greater than 90 degrees, then the triangle will be</p>
+            <label>
+                <input type="radio" name="question8" value="an obtuse angle triangle
+                ">an obtuse angle triangle
+
+            </label>
+            <label>
+                <input type="radio" name="question8" value="a scalene triangle">a scalene triangle
+            </label>
+            <label>
+                <input type="radio" name="question8" value="a right triangle
+                ">a right triangle
+
+            </label>
+        </div>
+        <div class="question-container">
+            <p>Find the altitude to side AC of triangle with side AB = 20 cm, AC = 20 cm, BC = 30 cm.</p>
+            <label>
+                <input type="radio" name="question9" value="7.5√7 cm">7.5√7 cm
+            </label>
+            <label>
+                <input type="radio" name="question9" value="10√7 cm">10√7 cm
+            </label>
+            <label>
+                <input type="radio" name="question9" value="8√7 cm">8√7 cm
+            </label>
+        </div>
+        <div class="question-container">
+            <p>If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?</p>
+            <label>
+                <input type="radio" name="question10" value="45°">45°
+            </label>
+            <label>
+                <input type="radio" name="question10" value="85°
+                °">85°
+            </label>
+            <label>
+                <input type="radio" name="question10" value="90°">90°
+            </label>
+        </div>
+    </form>
+    <br>
+    <br>
+    <button class="btn-check" id="submit-answer-btn">🥰Submit Answers🥰</button>
+    <br>
+    <br>
+    <div id="output"></div>
+
+
+     
+    <footer class="footer">
+        <div class="footer-header">Contact Me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/feed/">linked</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/home">twitter</a></li>
+        </ul>
+    </footer>
+
+    <script src="./quiz.js"></script>
+</body>
+</html>
