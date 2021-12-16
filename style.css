@@ -32,7 +32,7 @@ form div p {
     width: 200px;
 }
 
-.input-text {
+.side-input {
     font-size: 15px;
     padding: 0.6rem 1rem;
     border: 2px solid var(--primary-green);
@@ -41,7 +41,7 @@ form div p {
     max-width: 258px;
 }
 
-.btn-check {
+#btn-check {
     background: #bea5a5;
     border:auto;
     padding: 0.7rem 1rem;

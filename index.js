@@ -1,7 +1,6 @@
-const inputs = document.querySelectorAll(".angle-input");
-const inTriangleBtn = document.querySelector("#is-triangle-btn");
-const outputEl = document.querySelector("#output");
-
+const inputs = document.querySelectorAll(".side-input");
+const inTriangleBtn = document.querySelector("#btn-check");
+const outputEl = document.querySelector("#output"); 
 
 function calculateSumOfAngles(angle1, angle2, angle3) {
     const sumOfAngles = angle1 + angle2 + angle3;
@@ -16,6 +15,7 @@ function isTriangle() {
     }
     else {
         outputEl.innerText = "Oh Oh! The angle don't from a triangle";
+
     }
 }
 
